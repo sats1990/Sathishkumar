@@ -10,8 +10,8 @@ public static void main(String[] args) {
 	System.setProperty("webDriver.Chrome.driver","F:\\Sample\\Lib\\chromedriver.exe");
 	
 	// launch
-    WebDriver Driver = new ChromeDriver();
+    WebDriver driver = new ChromeDriver();
+    driver.get("https://www.facebook.com/");
       
 }
 }
-	
